@@ -1,18 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
-<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
-  <metadata>
-    <id>wireless-lan-service</id>
-    <version>1.0.0</version>
-    <packageSourceUrl>https://github.com/brogers5/chocolatey-package-wireless-lan-service/tree/v1.0.0</packageSourceUrl>
-    <owners>sublym0nal</owners>
-    <title>Wireless LAN (WLAN) Service</title>
-    <authors>Microsoft</authors>
-    <projectUrl>https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh994698(v=ws.11)</projectUrl>
-    <copyright>© Microsoft</copyright>
-    <tags>wireless-lan-service wlan wireless lan service wireless networking microsoft windows feature</tags>
-    <summary>Wireless LAN service feature for Windows Server.</summary>
-    <description><![CDATA[
+
 ---
 
 ### [choco://wireless-lan-service](choco://wireless-lan-service)
@@ -46,12 +32,3 @@ The package's installation should do nothing if either of the following applies:
   * No action is necessary in this case, since the feature is a mandatory component of Windows.
 
 The package's uninstallation should disable the feature if it is available, regardless of whether it was enabled prior to installation. If this behavior is undesired, be sure to use the `--skip-powershell` switch when uninstalling.
-]]></description>
-    <dependencies>
-      <dependency id="chocolatey-fastanswers.extension" version="0.0.1" />
-    </dependencies>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
-</package>
