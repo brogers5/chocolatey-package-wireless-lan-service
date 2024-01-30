@@ -1,12 +1,3 @@
-
----
-
-### [choco://wireless-lan-service](choco://wireless-lan-service)
-
-To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support](https://community.chocolatey.org/packages/choco-protocol-support)
-
----
-
 ## Wireless LAN Service
 
 Wireless LAN (WLAN) Service configures and starts the WLAN AutoConfig service, regardless of whether the computer has any wireless adapters. WLAN AutoConfig enumerates wireless adapters, and manages both wireless connections and the wireless profiles that contain the settings required to configure a wireless client to connect to a wireless network.
